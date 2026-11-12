@@ -1,11 +1,11 @@
 /* 内容编辑区：改这里的文字和图片地址，就能更新网站。 */
 const SITE_CONTENT = {
   photos: [
-    { title:'海风与落日', place:'海边风光 · 演示作品', image:'assets/coast.svg', description:'日落时分，金色的光落在海面上。这里可以换成你自己的拍摄故事。' },
-    { title:'山间晨光', place:'山川风景 · 演示作品', image:'assets/mountains.svg', description:'晨雾漫过远山，一天从柔软的光线里开始。' },
-    { title:'林间慢行', place:'自然风光 · 演示作品', image:'assets/forest.svg', description:'走进树林，感受风和树叶的声音。' },
-    { title:'城市一隅', place:'城市漫游 · 演示作品', image:'assets/city.svg', description:'城市里的旅行，也有细碎而珍贵的惊喜。' },
-    { title:'星空时刻', place:'夜色摄影 · 演示作品', image:'assets/stars.svg', description:'夜幕下的片刻宁静。' }
+    { title:'海风与落日', place:'海岸风光 · 黄昏时分', image:'assets/hero-coast.jpg', description:'日落时分，金色的光落在海面上。这里可以换成你自己的拍摄故事。' },
+    { title:'山间晨光', place:'山川风景 · 晨光时刻', image:'assets/mountains.jpg', description:'晨雾漫过远山，一天从柔软的光线里开始。' },
+    { title:'林间慢行', place:'自然风光 · 林间漫步', image:'assets/forest.jpg', description:'走进树林，感受风和树叶的声音。' },
+    { title:'城市一隅', place:'城市漫游 · 雨后街巷', image:'assets/city.jpg', description:'城市里的旅行，也有细碎而珍贵的惊喜。' },
+    { title:'星空时刻', place:'夜色摄影 · 山野星空', image:'assets/stars.jpg', description:'夜幕下的片刻宁静。' }
   ],
   aiArticles: [
     { category:'基础入门', title:'AI小白的第一课：人工智能到底是什么？', summary:'不讲复杂公式，用日常例子理解人工智能和大模型。', date:'入门笔记', body:['人工智能（AI）是研究如何让计算机完成某些需要感知、推理、学习或生成能力的任务的技术领域。','今天常见的AI工具可以帮助我们整理信息、写作、生成图片或辅助学习。但AI也会出现错误，重要的信息仍然需要核实。','我的学习计划是先掌握基础概念，再选择一两个工具完成真正的小任务，边实践边积累经验。'] },
@@ -18,3 +18,4 @@ const SITE_CONTENT = {
     { title:'工业视觉如何帮助机器“看见”？', summary:'相机、光源与算法如何协同工作。', category:'科技杂谈', body:['工业视觉系统通常由成像硬件、照明、处理算法及业务软件等部分组成。','好的照明可以使关键特征更容易被采集，算法则将图像信息转换成检测、定位或测量结果。'] }
   ]
 };
+
